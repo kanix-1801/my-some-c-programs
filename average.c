@@ -19,6 +19,6 @@ int main() {
     printf("my sum is : %li\n" ,sum);
 // now my average is there ;)        
     avg =(float)(n1+n2+n3+n4+n5)/2;       
-    printf("my average is : %f\n" ,avg);
+    printf("your average is : (%li+%li+%li+%li+%li)/2 = %.2f" ,n1,n2,n3,n4,n5,avg);
     return 0;
 }
