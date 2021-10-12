@@ -12,7 +12,7 @@ int main (void)
 	z = y/x;
 	r = y - (x*z);
 // i want remainder without use modulus "%" operator //
+// if we use modulus operator then our code should be r = y % x; // 
 	printf("so now our remainder is : %d\n",r);
 //    KANIX-1801 //	
-
 }
